@@ -2,7 +2,6 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 import joblib
 import pandas as pd
-import numpy as np
 import math
 
 app = FastAPI(title="Fraud Detection System")
